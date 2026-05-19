@@ -68,7 +68,15 @@ h1 {
 
 .complete {
   display: flex;
-    justify-content: right;
+  justify-content: right;
+}
+
+.item img {
+  max-width: 20px;
+}
+
+.item img:hover {
+  cursor:all-scroll;
 }
 
 .itemFooter {
