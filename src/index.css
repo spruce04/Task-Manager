@@ -45,4 +45,34 @@ h1 {
   border: 1px solid black;
   margin-right: 50px;
   padding: 5px;
+  min-width: 200px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.itemBody {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.item:hover {
+  background-color: lightgray;
+}
+
+.item:active {
+  border: 2px solid black;
+}
+
+.complete {
+  display: flex;
+    justify-content: right;
+}
+
+.itemFooter {
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
 }
