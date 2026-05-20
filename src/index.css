@@ -8,6 +8,7 @@ html, body, #root {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .headerWrap {
@@ -83,4 +84,10 @@ h1 {
   display: flex;
   justify-content: space-between;
   font-size: small;
+}
+
+.add {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
 }
