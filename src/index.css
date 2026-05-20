@@ -38,8 +38,14 @@ h1 {
   margin-right: 10px;
   margin-bottom: auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: flex-start;
 
+}
+
+.listItems {
+  display: flex;
+  flex-direction: row;
 }
 
 .item {
